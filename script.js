@@ -1,4 +1,7 @@
-const revealElements = document.querySelectorAll('.service-card, .stat-item, .about-text');
+const revealElements = document.querySelectorAll(
+    '.service-card, .stat-item, .about-text, .logo-perfil, .title-text'
+);
+
 
 const revealOnScroll = () => {
     revealElements.forEach(el => {
